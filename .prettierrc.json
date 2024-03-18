@@ -9,5 +9,6 @@
   "bracketSpacing": true,
   "bracketSameLine": false,
   "arrowParens": "always",
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "plugins": ["./node_modules/prettier-plugin-jsdoc/dist/index.js"]
 }
