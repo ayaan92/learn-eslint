@@ -1,18 +1,17 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
   },
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb', 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'prettier'],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: 6,
     sourceType: 'module',
   },
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
-    'react/react-in-jsx-scope': 'off', // react 17부터 React import 하지 않아도 JSX 사용할 수 있음
     'react/button-has-type': 'off', // button type 지정 하지 않아도 됨
-    // 'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.jsx'] }],
   },
   overrides: [
     {
