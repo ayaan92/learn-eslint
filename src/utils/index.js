@@ -23,3 +23,16 @@ export function DateToString(date) {
 export function StringToDate(string) {
   return new Date(string);
 }
+
+/**
+ * Returns the first element from an array.
+ *
+ * @example
+ *   getFirstFromArray([1, 2, 3]); // 1
+ *
+ * @param {Array} array - The input array.
+ * @returns {any} The first element of the array.
+ */
+export function getFirstFromArray(array) {
+  return array[0];
+}
