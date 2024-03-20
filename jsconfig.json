@@ -1,0 +1,12 @@
+{
+  "baseUrl": "src",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "target": "ES6",
+    "checkJs": true
+  },
+  "paths": {
+    "@/components/*": ["components/*"]
+  }
+}

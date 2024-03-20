@@ -5,8 +5,10 @@
   },
   "plugins": ["plugins/markdown"],
   "opts": {
+    "encoding": "utf8",
+    "template": "node_modules/jaguarjs-jsdoc",
     "recurse": true,
-    "destination": "docs"
+    "destination": "./docs"
   },
   "templates": {
     "cleverLinks": false,
