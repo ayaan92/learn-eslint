@@ -6,7 +6,7 @@
   "plugins": ["plugins/markdown"],
   "opts": {
     "encoding": "utf8",
-    "template": "node_modules/jaguarjs-jsdoc",
+    "template": "node_modules/tui-jsdoc-template",
     "destination": "./docs",
     "recurse": true
   },

@@ -1,9 +1,13 @@
-/** @namespace Utils */
+/**
+ * A collection of utility functions.
+ *
+ * @module Utils
+ */
 
 /**
  * Converts a Date object to a string representation of the date.
  *
- * @memberof Utils
+ * @memberof module:Utils
  * @example
  *   DateToString(new Date()); // '2021-01-01'
  *
@@ -17,7 +21,7 @@ function DateToString(date) {
 /**
  * Converts a string representation of the date to a Date object.
  *
- * @memberof Utils
+ * @memberof module:Utils
  * @example
  *   StringToDate('2021-01-01'); // Date object
  *
@@ -31,7 +35,7 @@ function StringToDate(string) {
 /**
  * Returns the first element from an array.
  *
- * @memberof Utils
+ * @memberof module:Utils
  * @example
  *   getFirstFromArray([1, 2, 3]); // 1
  *

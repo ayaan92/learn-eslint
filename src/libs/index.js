@@ -3,12 +3,16 @@ import axios from 'axios';
 import lodash from 'lodash';
 import moment from 'moment';
 
-/** @namespace Libs */
+/**
+ * Example function
+ *
+ * @module Libs
+ */
 
 /**
  * Example function
  *
- * @memberof Libs
+ * @memberof module:Libs
  * @example
  *   exampleFunction();
  *
