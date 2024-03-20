@@ -22,7 +22,9 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
     'react/button-has-type': 'off', // button type 지정 하지 않아도 됨
-    'jsdoc/tag-lines': 0, // jsdoc description prettier와 충돌 방지, jsdoc 태그들 사이에 공백줄이 있어도 됨
+    'react/require-default-props': 'off', // defaultProps은 deprecated될 예정
+    'jsdoc/tag-lines': 'off', // jsdoc description prettier와 충돌 방지, jsdoc 태그들 사이에 공백줄이 있어도 됨
+    'jsdoc/no-defaults': 'off', // jsdoc에서 default를 사용할 수 있음
   },
   overrides: [
     {
