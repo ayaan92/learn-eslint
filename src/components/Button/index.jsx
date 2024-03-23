@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
  * @param {React.ReactNode} props.children The children of the button
  * @returns {JSX.Element} The button component
  */
-export default function Button({ children }) {
-  return <button>{children}</button>;
+export default function Button({ children, onClick }) {
+  return <button onClick={onClick}>{children}</button>;
 }
 
 Button.propTypes = {

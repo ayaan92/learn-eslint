@@ -15,9 +15,16 @@ module.exports = {
     'plugin:jsdoc/recommended-error',
     'prettier',
   ],
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2020,
     sourceType: 'module',
+    requireConfigFile: false,
+    babelOptions: {
+      babelrc: false,
+      configFile: false,
+      presets: ['@babel/preset-env', '@babel/preset-react'],
+    },
   },
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
