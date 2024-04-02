@@ -1,0 +1,6 @@
+.storybook
+docs
+node_modules
+
+# temporary
+/src/stories

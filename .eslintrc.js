@@ -8,13 +8,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-    'plugin:react/jsx-runtime',
-    'plugin:jsdoc/recommended-error',
-    'prettier',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb', 'plugin:react/jsx-runtime', 'plugin:jsdoc/recommended-error', 'prettier', 'plugin:storybook/recommended'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2020,
